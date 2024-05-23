@@ -59,11 +59,29 @@ const Contact = () => {
                                     <textarea type="text" className="ta-contact" rows="4"></textarea>
                                 </div>
                                 <div className="col-lg-12">
-                                    <button className="btn-contact">Mesaj Gönder</button>
+                                    <button className="btn-contact" data-toggle="modal" data-target="#exampleModal">Mesaj Gönder</button>
                                 </div>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+            <div className="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Cetinkaya Kargo</h5>
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            Mailiniz başarıyla gönderilmiştir...
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                        </div>
                     </div>
                 </div>
             </div>

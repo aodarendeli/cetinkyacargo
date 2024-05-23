@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "Cetinkaya Kargo Olarak",
+        "date": "25.11.1997",
+        "command": 0,
+        "title": "Kargo Taşımacılık",
+        "link": "kargo-1",
+        "textdetail": "Profesyonel, eğitimli, motive personelimizle, sürekli gelişen teknolojiyi kullanarak, kaliteli, verimli ve müşteri odaklı hizmetler sunmak, böylece kargo sektöründe karlı büyümemizi ve liderliğimizi sürdürerek müşterilerimizin ilk tercihi olmaktır.",
+        "img": "https://cdn.pixabay.com/photo/2016/11/29/04/15/digger-1867268_1280.jpg"
+    },
+    {
+        "id": 2,
+        "text": "Cetinkaya Kargo Olarak",
+        "date": "25.11.1997",
+        "command": 0,
+        "title": "Faaliyet Alanları",
+        "link": "kargo-2",
+        "textdetail": "KARGO TAŞIMACILIK HAFRİYAT İŞLERİ YIKIM İŞLERİ ALTYAPI VE TAAHHÜT İŞLEMLERİ DOLGU TESVİYE ÇEVRE DÜZENLEME STABİLİZE MALZEME ELENMİŞ VE GÜBERELİ BAHÇE TOPRAĞI PEYSAJ İŞLERİ HER ÇEŞİT ELENMİŞ KUM KIRMA TAŞ VE BALANS MALEZEMESİ ile faaliyet göstermekteyiz.",
+        "img": "https://cdn.pixabay.com/photo/2016/11/21/16/37/loader-1846346_1280.jpg"
+    }
+]

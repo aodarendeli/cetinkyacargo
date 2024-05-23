@@ -1,9 +1,9 @@
-const TeamItem = ({ title, description }) => {
+const TeamItem = ({ title, description,img }) => {
     return (
         <div className="col-lg-4">
             <div className="team">
                 <div className="team-img">
-                    <img src="/img/team.jpg" alt="team" />
+                    <img src={img} alt="team" />
                 </div>
                 <div className="team-info">
                     <h5 className="team-name">{title}</h5>

@@ -12,7 +12,10 @@
   padding: 0;
 }
 .header{
-  background-color: white;
+  background-color: transparent;
+}
+.header-text {
+  font-family: 'Montserrat';
 }
 .nav-item{
   position: relative;
@@ -132,13 +135,13 @@
   margin-bottom: 40px;
 }
 .title{
-  font-size: 20px;
+  font-size: 40px;
   margin: 0;
   color: #3a4867de;
   font-weight: bold;
 }
 .title-description{
-  font-size: 13px;
+  font-size: 15px;
   margin: 0;
 }
 
@@ -166,7 +169,7 @@
 }
 
 .navbar-brand{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 .item-description{
@@ -506,7 +509,7 @@ section {
   align-items: center;
   padding: 50px;
   background: whitesmoke;
-  height: 200px;
+  height: 220px;
 }
 .contact .fas{
   font-size: 25px;
@@ -566,23 +569,12 @@ section {
 .about{
   background: whitesmoke;
 }
-.teklif{
-  background-color: black;
-  padding: 10px;
-  color: white;
-  border-radius: 10px;
-  border: 1px solid transparent;
-  opacity: 1;
-}
-.teklif:hover{
-  opacity: .8;
-}
 .about img{
   border-radius: 10px;
 }
 .about-text{
   color: #797979e0;
-  font-size: 14px;
+  font-size: 17px;
   margin: 15px 0;
 }
 .about .fa-long-arrow-alt-right{
@@ -767,4 +759,8 @@ section {
 .image-gallery-image{
 
   object-fit: cover;
+}
+
+.toast:not(.showing):not(.show) {
+  opacity: 1;
 }

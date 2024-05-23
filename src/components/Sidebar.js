@@ -8,34 +8,34 @@ const Sidebar = () => {
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Category</p>
+                    <p className="widget-title">Cetinkaya Kargo</p>
                     <div className="widget-content">
                         <ul className="category-ul">
-                            <li>Category 1</li>
-                            <li>Category 2</li>
-                            <li>Category 3</li>
-                            <li>Category 4</li>
-                            <li>Category 5</li>
+                            <li>İnşaat</li>
+                            <li>Gayrimenkul</li>
+                            <li>Akaryakıt</li>
+                            <li>Nakliyat</li>
+                            <li>Beton</li>
                         </ul>
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Title</p>
+                    <p className="widget-title">İnşaat</p>
                     <div className="widget-content">
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Title</p>
+                    <p className="widget-title">Gayrimenkul</p>
                     <div className="widget-content">
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Title</p>
+                    <p className="widget-title">Beton</p>
                     <div className="widget-content">
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Title</p>
+                    <p className="widget-title">Akaryakıt</p>
                     <div className="widget-content">
                     </div>
                 </div>

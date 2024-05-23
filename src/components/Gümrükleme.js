@@ -15,7 +15,7 @@ const Parsiyel = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img src="/img/product1.jpeg" alt="product" className="w-100" />
+                            <img src="https://cdn.pixabay.com/photo/2015/03/16/07/59/port-675552_1280.jpg" alt="product" className="w-100" />
                         </div>
                         <div className="col-lg-6">
                             <div className="about-item">

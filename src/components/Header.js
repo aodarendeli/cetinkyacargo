@@ -1,24 +1,27 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
 const Header = () => {
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+    console.log(isNavCollapsed);
+    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     return (
         <div className="header">
             <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-light">
+                <nav className="navbar navbar-expand-lg navbar-light mt-3 mb-3">
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
                             <div className="d-flex align-items-center">
-                                <i className="fas fa-home"></i>
-                                <span className="ms-2">
-                                    Cetinkaya 
+                                {/* <i className="fas fa-home"></i> */}
+                                <span className="ms-2 text-center header-text">
+                                    Cetinkaya
                                 </span>
                             </div>
                         </Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarNav">
+                        <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/">Anasayfa</Link>

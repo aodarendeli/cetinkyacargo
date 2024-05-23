@@ -1,19 +1,25 @@
 import Slider from "react-slick";
 import Title from "./Title"
-import ReferenceItem from "./ReferenceItem"
+import ReferenceItem from "./ReferenceItem/ReferenceItem"
+import ReferenceItem2 from "./ReferenceItem/ReferenceItem2"
+import ReferenceItem3 from "./ReferenceItem/ReferenceItem3"
+import ReferenceItem4 from "./ReferenceItem/ReferenceItem4"
+import ReferenceItem5 from "./ReferenceItem/ReferenceItem5"
+
+
 
 const References = () => {
     const title = {
         text: "Referanslarımız",
-        description: "Firmalar İle Calısmaktayız!"
+        description: "Sektörün Önde Gelenlerindeniz."
     }
     const settings = {
         infinite: true,
         speed: 1500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoPlay: true,
-        arrows: false,
+        arrows: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -28,7 +34,7 @@ const References = () => {
                 breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: false
                 }
@@ -43,11 +49,10 @@ const References = () => {
                     <div className="col-lg-12">
                         <Slider {...settings}>
                             <ReferenceItem />
-                            <ReferenceItem />
-                            <ReferenceItem />
-                            <ReferenceItem />
-                            <ReferenceItem />
-                            <ReferenceItem />       
+                            <ReferenceItem2 />
+                            <ReferenceItem3 />
+                            <ReferenceItem4 />  
+                            <ReferenceItem5 />   
                         </Slider>
                     </div>
                 </div>

@@ -1,20 +1,22 @@
 import { Link } from "react-router-dom"
+import blog from './blog.json'
 
-const BlogItem = ({ title, link }) => {
+const BlogItem = ({ title, link, item }) => {
+    console.log(item);
     return (
         <div className="col-lg-4">
             <div className="blog-item">
                 <div className="blog-img">
-                    <img src="/img/product1.jpeg" alt="product" className="w-100" />
+                    <img src={item.img} alt="product" className="w-100" />
                 </div>
                 <div className="blog-content">
-                    <h2 className="blog-title"><Link to={`/blog/${link}`}>{title}</Link></h2>
+                    <h2 className="blog-title"><Link to={`/blog/${item.link}`}>{item.title}</Link></h2>
                     <div className="blog-info">
-                        <div className="blog-info-item"><i className="far fa-calendar-alt "></i><span>20.10.2020</span></div>
-                        <div className="blog-info-item"><i className="far fa-comments"></i><span>0 Comments</span></div>
+                        <div className="blog-info-item"><i className="far fa-calendar-alt "></i><span>{item.date}</span></div>
+                        <div className="blog-info-item"><i className="far fa-comments"></i><span>{item.command}</span></div>
                     </div>
                     <div className="blog-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        {item.text}
                     </div>
                 </div>
             </div>
